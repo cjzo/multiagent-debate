@@ -22,6 +22,8 @@ def main():
     parser.add_argument("--limit", type=int, default=5, help="Number of examples to run")
     parser.add_argument("--provider", type=str, default="openai", choices=["openai", "anthropic", "gemini", "mock"], help="LLM Provider")
     parser.add_argument("--model", type=str, help="Model name (optional)")
+    parser.add_argument("--output_file", type=str, help="Output file to resume from or save to")
+    parser.add_argument("--delay", type=float, default=0.0, help="Delay in seconds between requests")
     
     args = parser.parse_args()
     
@@ -51,7 +53,7 @@ def main():
         protocol_class = BritishParliamentaryProtocol
         
     # Run
-    runner.run_experiment(protocol_class, args.dataset, limit=args.limit)
+    runner.run_experiment(protocol_class, args.dataset, limit=args.limit, output_file=args.output_file, delay=args.delay)
 
 if __name__ == "__main__":
     main()
