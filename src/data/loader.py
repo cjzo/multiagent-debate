@@ -17,6 +17,18 @@ class DataLoader:
             ds = load_dataset("hotpot_qa", "distractor", split=self.split)
             data = []
             for item in ds:
+                # ctx_chunks = []
+                # for title, sents in item["context"]:
+                #     ctx_chunks.append(f"Title: {title}\n" + " ".join(sents))
+                # context_text = "\n\n".join(ctx_chunks)
+
+                # data.append({
+                #     "id": item["id"],
+                #     "question": item["question"],
+                #     "answer": item["answer"],
+                #     "context": context_text,
+                # })
+
                 data.append({
                     "id": item["id"],
                     "question": item["question"],
