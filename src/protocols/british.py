@@ -5,7 +5,7 @@ from ..agents.agent import DebaterAgent
 class BritishParliamentaryProtocol(DebateProtocol):
     """British Parliamentary: Streaming speech with interruption (POI), tuned for QA."""
 
-    def run(self, question: str, agents: List[DebaterAgent], rounds: int = 2, **kwargs) -> Dict[str, Any]:
+    def run(self, question: str, agents: List[DebaterAgent], context: str = "", rounds: int = 2, **kwargs) -> Dict[str, Any]:
         if len(agents) != 2:
             raise ValueError("BritishParliamentaryProtocol requires exactly two agents (Government, Opposition).")
         
@@ -15,6 +15,7 @@ class BritishParliamentaryProtocol(DebateProtocol):
         # --- Government Opening (streamed) ---
         gov_prompt = (
             "You are the Government side in a British Parliamentary style debate on a QA benchmark question.\n\n"
+            f"Context:\n{context}\n\n"
             f"Question: {question}\n\n"
             "Your job:\n"
             "1. Decide on a concrete short answer to the question.\n"

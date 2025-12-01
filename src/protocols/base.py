@@ -6,7 +6,7 @@ class DebateProtocol(ABC):
     """Abstract base class for debate protocols."""
 
     @abstractmethod
-    def run(self, question: str, agents: List[DebaterAgent], **kwargs) -> Dict[str, Any]:
+    def run(self, question: str, agents: List[DebaterAgent], context: str = "", **kwargs) -> Dict[str, Any]:
         """
         Runs the debate protocol.
 

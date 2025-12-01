@@ -5,7 +5,7 @@ from ..agents.agent import DebaterAgent
 class SocraticDialogueProtocol(DebateProtocol):
     """Socratic Dialogue: One agent answers, another questions/corrects."""
 
-    def run(self, question: str, agents: List[DebaterAgent], rounds: int = 1, **kwargs) -> Dict[str, Any]:
+    def run(self, question: str, agents: List[DebaterAgent], context: str = "", rounds: int = 1, **kwargs) -> Dict[str, Any]:
         if len(agents) != 2:
             raise ValueError("SocraticDialogueProtocol requires exactly two agents (Student, Socrates).")
         
@@ -15,6 +15,7 @@ class SocraticDialogueProtocol(DebateProtocol):
         # 1) Initial attempt by Student
         student_prompt = (
             "You are a careful but concise student answering a question in a QA exam.\n\n"
+            f"Context:\n{context}\n\n"
             f"Question: {question}\n\n"
             "1. Think step by step and write a short reasoning (no more than 4 sentences).\n"
             "2. Then on a new line, write: Provisional Answer: <your best short answer in a few words "

@@ -5,13 +5,14 @@ from ..agents.agent import DebaterAgent
 class SingleCoTProtocol(DebateProtocol):
     """Control protocol: Single agent with Chain-of-Thought."""
 
-    def run(self, question: str, agents: List[DebaterAgent], **kwargs) -> Dict[str, Any]:
+    def run(self, question: str, agents: List[DebaterAgent], context: str = "", **kwargs) -> Dict[str, Any]:
         if len(agents) != 1:
             raise ValueError("SingleCoTProtocol requires exactly one agent.")
         
         agent = agents[0]
         prompt = (
             "You are answering a question from a QA benchmark.\n\n"
+            f"Context:\n{context}\n\n"
             f"Question: {question}\n\n"
             "1. Think step by step and write a short reasoning (no more than 4 sentences).\n"
             "2. Then, on a new line, give your final answer in EXACTLY this format:\n"

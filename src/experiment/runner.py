@@ -99,7 +99,8 @@ class ExperimentRunner:
 
             protocol = protocol_class()
             try:
-                result = protocol.run(question, agents, **protocol_kwargs)
+                context = item.get("context", "")
+                result = protocol.run(question, agents, context=context, **protocol_kwargs)
                 result["ground_truth"] = item["answer"]
                 
                 # Evaluate correctness

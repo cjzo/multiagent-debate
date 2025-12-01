@@ -5,7 +5,7 @@ from ..agents.agent import DebaterAgent
 class AmericanCongressProtocol(DebateProtocol):
     """American Congress: Long-form speeches, but oriented around factual QA correctness."""
 
-    def run(self, question: str, agents: List[DebaterAgent], rounds: int = 2, **kwargs) -> Dict[str, Any]:
+    def run(self, question: str, agents: List[DebaterAgent], context: str = "", rounds: int = 2, **kwargs) -> Dict[str, Any]:
         if len(agents) != 2:
             raise ValueError("AmericanCongressProtocol requires exactly two agents (Affirmative, Negative).")
         
@@ -17,6 +17,7 @@ class AmericanCongressProtocol(DebateProtocol):
         # Affirmative Opening
         aff_prompt = (
             "You are the Affirmative side in a congressional-style debate on a QA benchmark question.\n\n"
+            f"Context:\n{context}\n\n"
             f"Question: {question}\n\n"
             "Your job:\n"
             "1. Commit to a concrete short answer in the format: Proposed Answer: <short answer>.\n"
