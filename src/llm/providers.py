@@ -18,7 +18,7 @@ except ImportError:
     genai = None
 
 class OpenAIProvider(LLMProvider):
-    def __init__(self, model: str = "gpt-4o-mini", api_key: Optional[str] = None):
+    def __init__(self, model: str = "gpt-4.1-mini", api_key: Optional[str] = None):
         if OpenAI is None:
             raise ImportError("OpenAI library not installed. Please run `pip install openai`.")
         self.client = OpenAI(api_key=api_key or os.environ.get("OPENAI_API_KEY"))

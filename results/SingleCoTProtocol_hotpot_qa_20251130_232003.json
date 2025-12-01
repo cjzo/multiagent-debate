@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "protocol": "SingleCoTProtocol",
+    "dataset": "hotpot_qa",
+    "timestamp": "2025-11-30T23:20:03.317623",
+    "accuracy": 0.4,
+    "correct_count": 2,
+    "total_count": 5
+  },
+  "results": [
+    {
+      "protocol": "SingleCoT",
+      "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Scott Derrickson is an American filmmaker, known for directing films such as \"Sinister\" and \"Doctor Strange.\" Ed Wood was also an American filmmaker, famous for his cult films like \"Plan 9 from Outer Space.\" Both individuals were involved in the film industry in the United States, thus sharing the same nationality. Therefore, the answer to the question is yes. \n\nFinal Answer: yes"
+        }
+      ],
+      "final_answer": "yes",
+      "ground_truth": "yes",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "To determine the government position held by the woman who portrayed Corliss Archer in the film \"Kiss and Tell,\" we first identify the actress. The role was played by Janet Leigh. Later in life, Janet Leigh's daughter, Jamie Lee Curtis, noted her mother's accomplishments, but Janet Leigh herself did not hold a significant government position. However, she was honored with a star on the Hollywood Walk of Fame. Ultimately, Janet Leigh did not serve in a traditional government role.\n\nFinal Answer: none"
+        }
+      ],
+      "final_answer": "none",
+      "ground_truth": "Chief of Protocol",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The series in question is likely the \"Starbound\" series by Amie Kaufman and Meagan Spooner. It features a first-person narrative and includes companion novels that expand on the experiences of various enslaved worlds and alien species. The themes of oppression and interstellar conflict are prevalent, making it recognizable within the science fantasy genre aimed at young adults. \n\nFinal Answer: Starbound series"
+        }
+      ],
+      "final_answer": "Starbound series",
+      "ground_truth": "Animorphs",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The Laleli Mosque is located in the Laleli neighborhood of Istanbul, while the Esma Sultan Mansion is situated in the Ortak\u00f6y neighborhood. These two landmarks are in different areas of the city, which indicates they are not in the same neighborhood. Therefore, they are distinct from one another geographically.\n\nFinal Answer: no"
+        }
+      ],
+      "final_answer": "no",
+      "ground_truth": "no",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The director of the romantic comedy \"Big Stone Gap\" is Adriana Trigiani. She is known for her connection to New York City through her work and writings. Specifically, she resides in New York City, which is where she bases her creative efforts. Therefore, the answer to the question pertains to her residence.\n\nFinal Answer: New York City"
+        }
+      ],
+      "final_answer": "New York City",
+      "ground_truth": "Greenwich Village, New York City",
+      "is_correct": false
+    }
+  ]
+}

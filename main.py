@@ -8,9 +8,6 @@ from src.protocols.congress import AmericanCongressProtocol
 from src.protocols.british import BritishParliamentaryProtocol
 from src.experiment.runner import ExperimentRunner
 
-import google.generativeai as genai
-import os
-
 from dotenv import load_dotenv
 load_dotenv()
 
