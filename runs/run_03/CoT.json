@@ -1,0 +1,1315 @@
+{
+  "metadata": {
+    "protocol": "SingleCoTProtocol",
+    "dataset": "hotpot_qa",
+    "timestamp": "2025-12-04T17:10:47.784852",
+    "accuracy": 0.67,
+    "correct_count": 67,
+    "total_count": 100,
+    "prompt_tokens": 150330,
+    "completion_tokens": 7393,
+    "total_tokens": 157723
+  },
+  "results": [
+    {
+      "protocol": "SingleCoT",
+      "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Scott Derrickson is an American director, while Ed Wood was also an American filmmaker. Since both individuals are from the United States, they share the same nationality. Thus, the answer to the question is that Scott Derrickson and Ed Wood were indeed of the same nationality.\n\nFinal Answer: yes"
+        }
+      ],
+      "final_answer": "yes",
+      "ground_truth": "yes",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Shirley Temple portrayed Corliss Archer in the film \"Kiss and Tell.\" Later in her career, she was appointed as the United States ambassador to Ghana and to Czechoslovakia, making her a diplomat. Thus, the government position she held is related to her role as an ambassador. \n\nFinal Answer: ambassador"
+        }
+      ],
+      "final_answer": "ambassador",
+      "ground_truth": "Chief of Protocol",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The description in the question matches the \"Animorphs\" series, which is a science fantasy young adult series written by K. A. Applegate. It is told in first person and includes companion books such as \"The Hork-Bajir Chronicles,\" which narrate stories involving enslaved worlds and alien species. The overall themes of the series revolve around war and dehumanization, aligning with the elements presented in the question.\n\nFinal Answer: Animorphs"
+        }
+      ],
+      "final_answer": "Animorphs",
+      "ground_truth": "Animorphs",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Laleli Mosque is located in the Laleli neighborhood of Istanbul, while Esma Sultan Mansion is in the Ortak\u00f6y neighborhood, which is also in Istanbul but distinctly separate from Laleli. Therefore, these two landmarks are not in the same neighborhood. \n\nFinal Answer: no"
+        }
+      ],
+      "final_answer": "no",
+      "ground_truth": "no",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Adriana Trigiani is the director of the romantic comedy \"Big Stone Gap.\" According to the context, she is based in Greenwich Village, which is a neighborhood in New York City. Therefore, the director of the film is associated with a specific New York city. \n\nFinal Answer: Greenwich Village"
+        }
+      ],
+      "final_answer": "Greenwich Village",
+      "ground_truth": "Greenwich Village, New York City",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "To determine who formed the South Korean boy group WINNER, we can refer to the provided context for \"2014 S/S.\" It states that the album was released by YG Entertainment, which means that YG Entertainment is the organization responsible for forming the group.\n\nFinal Answer: YG Entertainment"
+        }
+      ],
+      "final_answer": "YG Entertainment",
+      "ground_truth": "YG Entertainment",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "To answer the question, we look for someone known by the stage name Aladin who also had a role in helping organizations improve their performance as a consultant. Eenasul Fateh (also known as Aladin) is mentioned in the context, but there is no indication in the provided context that he served as a consultant for organizations. Instead, the individual who is a consultant as well as an artist is Indriati Iskak, who worked as a marketing consultant. Therefore, the two roles do not coincide with one individual mentioned.\n\nFinal Answer: no"
+        }
+      ],
+      "final_answer": "no",
+      "ground_truth": "Eenasul Fateh",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The Lewiston Maineiacs played their home games at the Androscoggin Bank Colis\u00e9e. The capacity of this arena is 4,000, with 3,677 seats available for spectators. Therefore, the seating capacity of the venue where the Maineiacs played is clearly stated in the context provided.\n\nFinal Answer: 3,677 seated"
+        }
+      ],
+      "final_answer": "3,677 seated",
+      "ground_truth": "3,677 seated",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Who is older, Annie Morton or Terry Richardson?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "To determine who is older, we look at their birth dates. Annie Morton was born on October 8, 1970, while Terry Richardson was born on August 14, 1965. Since 1965 is earlier than 1970, Terry Richardson is older than Annie Morton.\n\nFinal Answer: Terry Richardson"
+        }
+      ],
+      "final_answer": "Terry Richardson",
+      "ground_truth": "Terry Richardson",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Are Local H and For Against both from the United States?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Local H is explicitly stated to be an American rock band. For Against is also identified as a U.S. band, confirming that both bands originate from the United States. Therefore, it is accurate to conclude that Local H and For Against are both from the United States.\n\nFinal Answer: yes"
+        }
+      ],
+      "final_answer": "yes",
+      "ground_truth": "yes",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The university whose main campus is in Lawrence, Kansas and has branch campuses in the Kansas City metropolitan area is the University of Kansas. The fight song of the University of Kansas is called \"Kansas Song\" (We\u2019re From Kansas). Therefore, the answer to the question is that song. \n\nFinal Answer: Kansas Song"
+        }
+      ],
+      "final_answer": "Kansas Song",
+      "ground_truth": "Kansas Song",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and T\u00e9a Leoni?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "To answer the question, I need to identify the screenwriter who co-wrote a film starring Nicolas Cage and T\u00e9a Leoni. The context mentions David Weissman as a screenwriter with credits including \"Evolution\" and that he co-wrote \"The Family Man,\" which stars Nicolas Cage and T\u00e9a Leoni. Thus, David Weissman satisfies the criteria given in the question.\n\nFinal Answer: David Weissman"
+        }
+      ],
+      "final_answer": "David Weissman",
+      "ground_truth": "David Weissman",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The film starring Arnold Schwarzenegger as a former New York Police detective is \"End of Days,\" released in 1999. Guns N' Roses performed a promo for the movie with their song \"Oh My God,\" which was released in 1999 on the film's soundtrack. Therefore, Guns N' Roses performed a promo for this movie in the same year it was released, 1999.\n\nFinal Answer: 1999"
+        }
+      ],
+      "final_answer": "1999",
+      "ground_truth": "1999",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Both the Random House Tower and 888 7th Avenue serve as commercial properties in New York City; however, they serve different purposes. The Random House Tower is primarily used as the headquarters for the book publisher Random House, while 888 7th Avenue houses the headquarters of Vornado Realty Trust and also includes office space. Both buildings exemplify real estate in terms of their commercial use but have specific functions related to the companies that occupy them.\n\nFinal Answer: yes"
+        }
+      ],
+      "final_answer": "yes",
+      "ground_truth": "no",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "David Beckham was recruited during his youth to Manchester United by Sir Alex Ferguson, who managed the club from 1986 to 2013. Therefore, the timeframe in which Ferguson managed the team includes the period when Beckham was developed as a player. Beckham made his first-team debut in 1992, during Ferguson's tenure. \n\nFinal Answer: 1986 to 2013"
+        }
+      ],
+      "final_answer": "1986 to 2013",
+      "ground_truth": "from 1986 to 2013",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Brown State Fishing Lake is located in Brown County, Kansas, which is in the United States. According to the context provided, as of the 2010 census, the population of Brown County was 9,984 inhabitants. Therefore, the country where Brown State Fishing Lake is located, which is the United States, has over 9,000 inhabitants.\n\nFinal Answer: 9,984 inhabitants"
+        }
+      ],
+      "final_answer": "9,984 inhabitants",
+      "ground_truth": "9,984",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The Vermont Catamounts men's soccer team competes in the America East Conference. The America East Conference was previously named the North Atlantic Conference from 1988 to 1996. Therefore, the former name of the conference is essential to identify. \n\nFinal Answer: North Atlantic Conference"
+        }
+      ],
+      "final_answer": "North Atlantic Conference",
+      "ground_truth": "the North Atlantic Conference",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Both Giuseppe Verdi and Ambroise Thomas are known for their contributions to the opera genre. Verdi is one of the most celebrated Italian opera composers, while Thomas is recognized for his operas, including \"Mignon\" and \"Hamlet.\" Therefore, both can be classified as opera composers. \n\nFinal Answer: yes"
+        }
+      ],
+      "final_answer": "yes",
+      "ground_truth": "yes",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Roger O. Egeberg served as Assistant Secretary for Health and Scientific Affairs during the Nixon administration. Richard Nixon was President of the United States from 1969 until he resigned in 1974. Therefore, Egeberg served during those years when Nixon was in office. \n\nFinal Answer: 1969 to 1974"
+        }
+      ],
+      "final_answer": "1969 to 1974",
+      "ground_truth": "1969 until 1974",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Henry Roth was an American writer, while Robert Erskine Childers was noted to be English-born. Therefore, the writer from England is Robert Erskine Childers.\n\nFinal Answer: Robert Erskine Childers"
+        }
+      ],
+      "final_answer": "Robert Erskine Childers",
+      "ground_truth": "Robert Erskine Childers DSC",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Sergio P\u00e9rez is the Force India driver born in 1990. The context states that Pedro Rodr\u00edguez is the most successful Mexican driver, being the only one to have won a Grand Prix, which indicates he is the only other Mexican driver who has held a podium finish. Therefore, Rodr\u00edguez is the answer to the question.\n\nFinal Answer: Pedro Rodr\u00edguez"
+        }
+      ],
+      "final_answer": "Pedro Rodr\u00edguez",
+      "ground_truth": "Pedro Rodr\u00edguez",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The song \"A Rather Blustery Day\" is sung by Jim Cummings as the character Pooh. Jim Cummings is also known for voicing Miles \"Tails\" Prower, who is a hedgehog, in the Sonic the Hedgehog video game series. Therefore, the connection between the singer of \"A Rather Blustery Day\" and the hedgehog character is established through Jim Cummings's voice role.\n\nFinal Answer: Tails"
+        }
+      ],
+      "final_answer": "Tails",
+      "ground_truth": "Sonic",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The program Apple Remote was originally designed to interact with is Front Row, a media center application for Macintosh computers. Front Row can also be controlled by keyboard function keys. Therefore, aside from the Apple Remote, the keyboard can control Front Row. \n\nFinal Answer: keyboard function keys"
+        }
+      ],
+      "final_answer": "keyboard function keys",
+      "ground_truth": "keyboard function keys",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "To determine which performance act has a higher instrument to person ratio, we need to consider the number of instruments and the number of people in each act. Wolf Alice, as a four-piece band, likely has four instruments (guitar, bass, drums, vocals) compared to Badly Drawn Boy, who is a solo artist and typically plays multiple instruments (let's assume he plays at least three). Thus, Badly Drawn Boy has a higher ratio since he is one person playing several instruments, while Wolf Alice has multiple people playing a smaller number of instruments collectively.\n\nFinal Answer: Badly Drawn Boy"
+        }
+      ],
+      "final_answer": "Badly Drawn Boy",
+      "ground_truth": "Badly Drawn Boy",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Kasper Schmeichel's father, Peter Schmeichel, was voted the IFFHS World's Best Goalkeeper in 1992. This award is given to the most outstanding goalkeeper of the year by the International Federation of Football History & Statistics. Peter Schmeichel's contributions to football, particularly during his time at Manchester United, garnered him this recognition. \n\nFinal Answer: IFFHS World's Best Goalkeeper"
+        }
+      ],
+      "final_answer": "IFFHS World's Best Goalkeeper",
+      "ground_truth": "World's Best Goalkeeper",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The song \"These Boots Are Made for Walkin'\" was written by Lee Hazlewood. Among the individuals mentioned in the context, Lee Hazlewood also died in 2007. Therefore, the writer of the song and the person who died in 2007 is the same.\n\nFinal Answer: Lee Hazlewood"
+        }
+      ],
+      "final_answer": "Lee Hazlewood",
+      "ground_truth": "Barton Lee Hazlewood",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "The 2011\u201312 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Virginia Commonwealth University (VCU) was founded in 1838 as the medical department of Hampden\u2013Sydney College. This information is relevant to the context of the 2011\u201312 VCU Rams men's basketball team, which represents the university during that season. The team was led by coach Shaka Smart and played in the NCAA Division I basketball season for that year. Therefore, the founding year of the university is 1838. \n\nFinal Answer: 1838"
+        }
+      ],
+      "final_answer": "1838",
+      "ground_truth": "1838",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Are both Dictyosperma, and Huernia described as a genus?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Both Dictyosperma and Huernia are indeed described as genera. Each is classified as a distinct group of flowering plants under different families, with their own unique characteristics and native habitats. The information confirms that both terms refer to a genus in the botanical classification system. \n\nFinal Answer: yes"
+        }
+      ],
+      "final_answer": "yes",
+      "ground_truth": "yes",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Kaiser Ventures corporation was indeed founded by Henry J. Kaiser, who is recognized as the father of modern American shipbuilding. His contributions to the shipbuilding industry, particularly during World War II, solidify this recognition. Therefore, the statement in the question is accurate regarding the founder of Kaiser Ventures. \n\nFinal Answer: yes"
+        }
+      ],
+      "final_answer": "yes",
+      "ground_truth": "Henry J. Kaiser",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The adventure in \"Tunnels and Trolls\" mentioned is \"Arena of Khazan,\" which was published by Flying Buffalo in 1979. The game's instructions and adventures are noted for being accessible, aligning with the purpose of \"Tunnels & Trolls\" as designed by Ken St. Andre. Since the question explicitly asks for the name of an adventure related to this game, \"Arena of Khazan\" is the appropriate answer. \n\nFinal Answer: Arena of Khazan"
+        }
+      ],
+      "final_answer": "Arena of Khazan",
+      "ground_truth": "Arena of Khazan",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "When was Poison's album \"Shut Up, Make Love\" released?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The question is about the release date of Poison's album \"Shut Up, Make Love\". However, \"Shut Up, Make Love\" is actually identified as a song rather than an album. The context mentions that it was released in 2000 as part of the album \"Crack a Smile...and More!\" Thus, I conclude that \"Shut Up, Make Love\" itself does not have a standalone album release date.\n\nFinal Answer: no"
+        }
+      ],
+      "final_answer": "no",
+      "ground_truth": "2000",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Buck-Tick is a Japanese rock band formed in Fujioka, Gunma. The context states that they were established in 1983 and specifies their location as Fujioka, Gunma. Thus, Buck-Tick hails from Japan.\n\nFinal Answer: Japan"
+        }
+      ],
+      "final_answer": "Japan",
+      "ground_truth": "Fujioka, Gunma",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The French ace pilot and adventurer who flew L'Oiseau Blanc was Charles Nungesser. He was teamed with Fran\u00e7ois Coli for their transatlantic flight attempt. Nungesser was renowned for his accomplishments during World War I and aimed to make history with this flight. Their aircraft, L'Oiseau Blanc, disappeared during the attempt on May 8, 1927. \n\nFinal Answer: Charles Nungesser"
+        }
+      ],
+      "final_answer": "Charles Nungesser",
+      "ground_truth": "Charles Eug\u00e8ne",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Freakonomics: The Movie is an American documentary film based on the book \"Freakonomics,\" while In the Realm of the Hackers is an Australian documentary about hackers in Melbourne. Therefore, only Freakonomics is American, and In the Realm of the Hackers is not. Thus, not both of them are American documentaries.\n\nFinal Answer: no"
+        }
+      ],
+      "final_answer": "no",
+      "ground_truth": "no",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "To determine which band had more members, we look at the members listed for each. Letters to Cleo has six members: Kay Hanley, Greg McKenna, Michael Eisenstein, Stacy Jones, Scott Riebling, and Tom Polce. On the other hand, Screaming Trees originally had four members: Mark Lanegan, Gary Lee Conner, Van Conner, and Mark Pickerel, with one additional member, Barrett Martin, joining later. Therefore, Letters to Cleo had more members than Screaming Trees.\n\nFinal Answer: Letters to Cleo"
+        }
+      ],
+      "final_answer": "Letters to Cleo",
+      "ground_truth": "Letters to Cleo",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The Russian Civil War, in which the Bolsheviks defeated Alexander Kerensky and the anti-Bolshevik forces, officially ended in October 1922 with the consolidation of Bolshevik control over Russia. The final major engagements of the war involved various factions, including foreign intervention. By that time, the Red Army had managed to defeat the last remnants of organized opposition. Therefore, Kerensky's defeat and the end of the civil war occurred as the Bolsheviks secured their dominance. \n\nFinal Answer: October 1922"
+        }
+      ],
+      "final_answer": "October 1922",
+      "ground_truth": "October 1922",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Seven Brief Lessons on Physics was written by Carlo Rovelli. According to the provided context, he has worked in France since the year 2000. \n\nFinal Answer: 2000"
+        }
+      ],
+      "final_answer": "2000",
+      "ground_truth": "2000",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The Livesey Hall War Memorial commemorates the fallen of World War I and World War II. World War II is the conflict that had over 60 million casualties. Therefore, the memorial recognizes those who served and died in that devastating war. \n\nFinal Answer: World War II"
+        }
+      ],
+      "final_answer": "World War II",
+      "ground_truth": "World War II",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Elko Regional Airport is located in Elko County, Nevada, while Gerald R. Ford International Airport is located in Cascade Township, Michigan. Therefore, only Gerald R. Ford International Airport is in Michigan, not Elko Regional Airport. Hence, both airports are not located in Michigan.\n\nFinal Answer: no"
+        }
+      ],
+      "final_answer": "no",
+      "ground_truth": "no",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Ralph Hefferline was a psychology professor at Columbia University. Columbia University is located in New York City. Therefore, the university where he taught is in New York City.\n\nFinal Answer: New York City"
+        }
+      ],
+      "final_answer": "New York City",
+      "ground_truth": "New York City",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The Scotch Collie is reported to have originated from a variety of ancient herding dogs, which included Gordon and Irish Setters among its ancestors. In contrast, the Manchester Terrier does not list these breeds as part of its lineage. Therefore, the correct answer is that the Scotch Collie has ancestors that include Gordon and Irish Setters.\n\nFinal Answer: Scotch Collie"
+        }
+      ],
+      "final_answer": "Scotch Collie",
+      "ground_truth": "Scotch Collie",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Sachin Warrier worked for Tata Consultancy Services (TCS) as a software engineer. The context specifies that TCS is headquartered in Mumbai, Maharashtra, India. Therefore, the answer to where the company is headquartered is Mumbai. \n\nFinal Answer: Mumbai"
+        }
+      ],
+      "final_answer": "Mumbai",
+      "ground_truth": "Mumbai",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The Japanese manga series based on Ichitaka Seto is \"I\"s\", which is written and illustrated by Masakazu Katsura. Masakazu Katsura was born on December 10, 1962. Therefore, the manga was created by someone born in that year.\n\nFinal Answer: 1962"
+        }
+      ],
+      "final_answer": "1962",
+      "ground_truth": "1962",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The battle in which Giuseppe Arimondi lost his life was the Battle of Adwa, which took place on March 2, 1896. This decisive defeat for Italy secured Ethiopian sovereignty and ensured that Ethiopia remained an independent nation, free from colonization. The victory at Adwa was pivotal in solidifying Ethiopia's status as one of the few African countries to successfully repel European colonialism.\n\nFinal Answer: Ethiopian sovereignty"
+        }
+      ],
+      "final_answer": "Ethiopian sovereignty",
+      "ground_truth": "sovereignty",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under Vice President Nelson Rockefeller. This committee was established during Rockefeller's time in office, linking Balk's role directly to him. Additionally, Rockefeller held the vice presidency from 1974 to 1977, a period consistent with Balk's involvement.\n\nFinal Answer: Nelson Rockefeller"
+        }
+      ],
+      "final_answer": "Nelson Rockefeller",
+      "ground_truth": "Nelson Rockefeller",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The question refers to Dirleton Castle, which is a medieval fortress located in Dirleton, East Lothian. According to the context provided, Dirleton Castle lies to the south of Yellowcraigs, a coastal area. Therefore, the fortress borders Yellowcraigs on its south side.\n\nFinal Answer: Yellowcraigs"
+        }
+      ],
+      "final_answer": "Yellowcraigs",
+      "ground_truth": "Yellowcraig",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The question refers to the song \"To Know Him Is to Love Him,\" which is included in the box set \"Back to Mono.\" Phil Spector wrote this song, inspired by words on his father's tombstone. The context confirms that it was the first track in that box set. Therefore, Phil Spector is the writer of the song.\n\nFinal Answer: Phil Spector"
+        }
+      ],
+      "final_answer": "Phil Spector",
+      "ground_truth": "Phil Spector",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What type of forum did a former Soviet statesman initiate?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Mikhail Gorbachev, a former Soviet statesman, initiated the World Summit of Nobel Peace Laureates. This forum serves as a platform for Nobel Peace Laureates and their organizations to convene and discuss global issues related to peace and human well-being. The initiative represents Gorbachev's ongoing commitment to fostering dialogue and collaboration on international peace efforts.\n\nFinal Answer: World Summit of Nobel Peace Laureates"
+        }
+      ],
+      "final_answer": "World Summit of Nobel Peace Laureates",
+      "ground_truth": "Organizations could come together to address global issues",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Are Ferocactus and Silene both types of plant?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Both Ferocactus and Silene are types of flowering plants. Ferocactus belongs to the cactus family and is characterized by its barrel shape, while Silene is a genus in the pink family, comprising a wide range of species, many of which have dioecious reproductive systems. Despite their different classifications and attributes, both are categorized within the plant kingdom as flowering plants.\n\nFinal Answer: yes"
+        }
+      ],
+      "final_answer": "yes",
+      "ground_truth": "yes",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The English Electric Canberra was a British first-generation jet-powered medium bomber that served during the post-World War II period. Although it was not directly involved in World War II operations, it was used by the Royal Australian Air Force in subsequent conflicts, including the Malayan Emergency and the Vietnam War. The context provided does not indicate that any British bombers were actively operational in the South West Pacific theatre during World War II itself. Therefore, the answer is based on what is known about the aircraft's timeline.\n\nFinal Answer: English Electric Canberra"
+        }
+      ],
+      "final_answer": "English Electric Canberra",
+      "ground_truth": "English Electric Canberra",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Which year and which conference was the 14th season for this conference as part of the NCAA Division that the Colorado Buffaloes played in with a record of 2-6 in conference play?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The question specifies a conference season where the Colorado Buffaloes had a record of 2-6 in conference play. From the provided context, the 2009 Colorado Buffaloes football team had a record of 2-6 in Big 12 play, corresponding to the 2009 Big 12 Conference football season. The 2009 season was indeed the 14th season for the Big 12 as part of the NCAA Division I FBS.\n\nFinal Answer: 2009 Big 12 Conference"
+        }
+      ],
+      "final_answer": "2009 Big 12 Conference",
+      "ground_truth": "2009 Big 12 Conference",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "In 1991 Euromarch\u00e9 was bought by a chain that operated how any hypermarkets at the end of 2016?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "In 1991, Euromarch\u00e9 was bought by Carrefour, which is noted as one of the largest hypermarket chains in the world. By the end of 2016, Carrefour operated 1,462 hypermarkets. Therefore, the number of hypermarkets operated by Carrefour at that time is directly related to the chain that acquired Euromarch\u00e9.\n\nFinal Answer: 1,462 hypermarkets"
+        }
+      ],
+      "final_answer": "1,462 hypermarkets",
+      "ground_truth": "1,462",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What race track in the midwest hosts a 500 mile race eavery May?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The race track in the Midwest that hosts a 500-mile race every May is the Indianapolis Motor Speedway. This track is known for holding the prestigious Indianapolis 500, which takes place in May each year. The question specifies a 500-mile race, which aligns perfectly with the Indianapolis 500. \n\nFinal Answer: Indianapolis Motor Speedway"
+        }
+      ],
+      "final_answer": "Indianapolis Motor Speedway",
+      "ground_truth": "Indianapolis Motor Speedway",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "In what city did the \"Prince of tenors\" star in a film based on an opera by Giacomo Puccini?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Franco Corelli, known as the \"Prince of tenors,\" starred in the 1956 film \"Tosca,\" which is based on the opera by Giacomo Puccini. The film was produced in Italy, specifically at Cinecitt\u00e0 in Rome. Therefore, the city where he starred in this opera-based film is Rome.\n\nFinal Answer: Rome"
+        }
+      ],
+      "final_answer": "Rome",
+      "ground_truth": "Rome",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Ellie Goulding worked with what other writers on her third studio album, Delirium?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Ellie Goulding worked with Max Martin, Savan Kotecha, and Ilya Salmanzadeh on her third studio album, \"Delirium.\" These writers were involved in the creation of her lead single \"On My Mind.\" Additionally, they also collaborated on other tracks within the album. The context specifies these writers as contributors to the album's production.\n\nFinal Answer: Max Martin, Savan Kotecha, Ilya Salmanzadeh"
+        }
+      ],
+      "final_answer": "Max Martin, Savan Kotecha, Ilya Salmanzadeh",
+      "ground_truth": "Max Martin, Savan Kotecha and Ilya Salmanzadeh",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Which Australian city founded in 1838 contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name.",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The city in Australia founded in 1838 is Marion, which is close to the main city of Adelaide. The boarding school opened by a Prime Minister of Australia is Westminster School, which was opened by Prime Minister Robert Menzies in 1961 and is named after Westminster School in London. Therefore, the question refers to Marion, South Australia.\n\nFinal Answer: Marion, South Australia"
+        }
+      ],
+      "final_answer": "Marion, South Australia",
+      "ground_truth": "Marion, South Australia",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "D1NZ is a series based on what oversteering technique?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "D1NZ is a drifting series in New Zealand, and drifting is a driving technique that involves intentionally oversteering through corners while maintaining control of the vehicle. The technique involves loss of traction, particularly in the rear wheels, allowing the car to maneuver with a different orientation of the wheels compared to the direction of the turn. Hence, D1NZ is based on the drifting oversteering technique.\n\nFinal Answer: drifting"
+        }
+      ],
+      "final_answer": "drifting",
+      "ground_truth": "Drifting",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "who is younger Keith Bostic or Jerry Glanville ?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Keith Bostic was born on January 17, 1961, while Jerry Glanville was born on October 14, 1941. Therefore, Bostic is younger than Glanville by nearly 20 years. Since Bostic's birth year is later than Glanville's, it confirms that he is the younger individual. \n\nFinal Answer: Keith Bostic"
+        }
+      ],
+      "final_answer": "Keith Bostic",
+      "ground_truth": "Keith Bostic",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "According to the 2001 census, what was the population of the city in which Kirton End is located?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Kirton End is a hamlet in the civil parish of Kirton, which is in the Boston district of Lincolnshire, England. According to the 2001 census, the town of Boston had a population of 35,124. Therefore, the population of the city in which Kirton End is located (Boston) is 35,124. \n\nFinal Answer: 35,124"
+        }
+      ],
+      "final_answer": "35,124",
+      "ground_truth": "35,124",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Are both Cypress and Ajuga genera?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Cypress is a genus of conifer trees in the family Cupressaceae, while Ajuga is a genus of herbaceous flowering plants in the mint family Lamiaceae. Both are classified as genera but belong to different families and types of plants. Therefore, while they are both genera, they are not closely related or in the same taxonomic grouping. \n\nFinal Answer: yes"
+        }
+      ],
+      "final_answer": "yes",
+      "ground_truth": "no",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What distinction is held by the former NBA player who was a member of the Charlotte Hornets during their 1992-93 season and was head coach for the WNBA team Charlotte Sting?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Muggsy Bogues is the former NBA player who played for the Charlotte Hornets during their 1992-93 season and later served as head coach for the WNBA team Charlotte Sting. He is notably recognized as the shortest player ever to play in the NBA, standing at just 5 feet tall. This unique distinction adds to his legacy as a memorable figure in both the NBA and WNBA.\n\nFinal Answer: Muggsy Bogues"
+        }
+      ],
+      "final_answer": "Muggsy Bogues",
+      "ground_truth": "shortest player ever to play in the National Basketball Association",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What is the name of the executive producer of the film that has a score composed by Jerry Goldsmith?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "To determine the executive producer of the film that has a score composed by Jerry Goldsmith, we can look at the provided context. Several films with scores by Jerry Goldsmith are mentioned, including \"Innerspace,\" \"Total Recall,\" and \"Lionheart.\" Among these, \"Innerspace\" lists Steven Spielberg as the executive producer, while \"Total Recall\" does not specify an executive producer. \"Lionheart\" mentions Francis Ford Coppola as the executive producer. Therefore, I will choose one of these names.\n\nFinal Answer: Francis Ford Coppola"
+        }
+      ],
+      "final_answer": "Francis Ford Coppola",
+      "ground_truth": "Ronald Shusett",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Who was born earlier, Emma Bull or Virginia Woolf?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "To determine who was born earlier, we compare the birth dates of Emma Bull and Virginia Woolf. Virginia Woolf was born on January 25, 1882, and Emma Bull was born on December 13, 1954. Since 1882 is earlier than 1954, Virginia Woolf was born first.\n\nFinal Answer: Virginia Woolf"
+        }
+      ],
+      "final_answer": "Virginia Woolf",
+      "ground_truth": "Adeline Virginia Woolf",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What was the Roud Folk Song Index of the nursery rhyme inspiring What Are Little Girls Made Of?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The nursery rhyme inspiring \"What Are Little Girls Made Of?\" is \"What Are Little Boys Made Of?\". According to the context provided, \"What Are Little Boys Made Of?\" has a Roud Folk Song Index number of 821. Thus, the Roud Folk Song Index for the nursery rhyme inspiring \"What Are Little Girls Made Of?\" is also 821. \n\nFinal Answer: 821"
+        }
+      ],
+      "final_answer": "821",
+      "ground_truth": "821",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Scott Parkin has been a vocal critic of Exxonmobil and another corporation that has operations in how many countries ?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Scott Parkin has criticized ExxonMobil, which is one of the largest oil field service companies globally and operates in more than 70 countries. Therefore, the number of countries in which ExxonMobil has operations is 70 or more. \n\nFinal Answer: 70"
+        }
+      ],
+      "final_answer": "70",
+      "ground_truth": "more than 70 countries",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What WB supernatrual drama series was Jawbreaker star Rose Mcgowan best known for being in?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Rose McGowan is best known for her role as Paige Matthews in the WB supernatural drama series \"Charmed.\" She joined the series in its fourth season after the character Prue, played by Shannen Doherty, was written out. \"Charmed\" became a significant part of her career, and she played the character from 2001 to 2006. Therefore, the WB supernatural drama series she is most associated with is \"Charmed.\"\n\nFinal Answer: Charmed"
+        }
+      ],
+      "final_answer": "Charmed",
+      "ground_truth": "Charmed",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Vince Phillips held a junior welterweight title by an organization recognized by what larger Hall of Fame?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Vince Phillips held the IBF junior welterweight title, and the International Boxing Federation (IBF) is one of the four major organizations recognized by the International Boxing Hall of Fame (IBHOF). Therefore, the larger Hall of Fame that recognizes the IBF is the International Boxing Hall of Fame. \n\nFinal Answer: International Boxing Hall of Fame"
+        }
+      ],
+      "final_answer": "International Boxing Hall of Fame",
+      "ground_truth": "International Boxing Hall of Fame",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What is the name of the singer who's song was released as the lead single from the album \"Confessions\", and that had popular song stuck behind for eight consecutive weeks?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The question asks for the singer whose song was released as the lead single from the album \"Confessions\" and was stuck behind another popular song for eight consecutive weeks. The text mentions that \"Yeah!\" by Usher was the lead single from the \"Confessions\" album and it was held at number two for eight weeks by Usher's own other singles as well. Therefore, the answer is Usher.\n\nFinal Answer: Usher"
+        }
+      ],
+      "final_answer": "Usher",
+      "ground_truth": "Usher",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "who is the younger brother of The episode guest stars of The Hard Easy ",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The guest stars of \"The Hard Easy\" include Henry Thomas, Vera Farmiga, and Gary Busey, among others. However, no direct mention of familial relationships is provided in the context. Given the prompt, the only revealed sibling relationship is between Brian Doyle-Murray, who appeared in \"The Hard Easy\" and is the older brother of Bill Murray, making Bill Murray the younger brother in that context. \n\nFinal Answer: Bill Murray"
+        }
+      ],
+      "final_answer": "Bill Murray",
+      "ground_truth": "Bill Murray",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "The 2017\u201318 Wigan Athletic F.C. season will be a year in which the team competes in the league cup known as what for sponsorship reasons?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The 2017\u201318 Wigan Athletic F.C. season includes participation in the EFL Cup, which is currently known for sponsorship reasons as the Carabao Cup. This name change reflects the sponsorship arrangements associated with the tournament. Therefore, the team will compete in the Carabao Cup for that season.\n\nFinal Answer: Carabao Cup"
+        }
+      ],
+      "final_answer": "Carabao Cup",
+      "ground_truth": "Carabao Cup",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Which of Tara Strong major voice role in animated series is an American animated television series based on the DC Comics fictional superhero team, the \"Teen Titans\"?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Tara Strong's major voice role in animated series that is based on the DC Comics fictional superhero team, the \"Teen Titans,\" includes her portrayal of Raven in both \"Teen Titans\" and its spin-off series \"Teen Titans Go!\". Both series feature the Teen Titans as central characters, with Raven being one of the main members. Therefore, her role directly correlates with the question about the series.\n\nFinal Answer: Raven"
+        }
+      ],
+      "final_answer": "Raven",
+      "ground_truth": "Teen Titans Go!",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What is the inhabitant of the city where  122nd SS-Standarte was formed in2014",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The 122nd SS-Standarte was formed in Strasbourg. According to the context, Strasbourg's population in 2014 was documented as 276,170 inhabitants. Therefore, the answer to the question about the inhabitant of the city where the 122nd SS-Standarte was formed in 2014 would be that the city had 276,170 inhabitants.\n\nFinal Answer: 276170"
+        }
+      ],
+      "final_answer": "276170",
+      "ground_truth": "276,170 inhabitants",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What color clothing do people of the Netherlands wear during Oranjegekte or to celebrate the national holiday Koningsdag? ",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "During Oranjegekte or Koningsdag, people in the Netherlands wear orange clothing. This is because orange is the traditional color of the Dutch royal family, the House of Orange-Nassau. The phenomenon is characterized by the widespread wearing of orange apparel, such as T-shirts, caps, and scarves, as a show of national pride.\n\nFinal Answer: orange"
+        }
+      ],
+      "final_answer": "orange",
+      "ground_truth": "orange",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What was the name of the 1996 loose adaptation of William Shakespeare's \"Romeo & Juliet\" written by James Gunn?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "James Gunn wrote the screenplay for the 1996 film \"Tromeo and Juliet,\" which is a loose adaptation of William Shakespeare's \"Romeo and Juliet.\" The film falls under the category of transgressive romantic comedy, produced by Troma Entertainment. It is distinct from other adaptations due to its independent and unconventional approach to the source material.\n\nFinal Answer: Tromeo and Juliet"
+        }
+      ],
+      "final_answer": "Tromeo and Juliet",
+      "ground_truth": "Tromeo and Juliet",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Robert Suettinger was the national intelligence officer under which former Governor of Arkansas?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Robert Suettinger was the national intelligence officer for East Asia at the National Intelligence Council during Bill Clinton's presidency. Clinton was the former Governor of Arkansas before he became President. Thus, Robert Suettinger served under Bill Clinton.\n\nFinal Answer: Bill Clinton"
+        }
+      ],
+      "final_answer": "Bill Clinton",
+      "ground_truth": "William Jefferson Clinton",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What American professional Hawaiian surfer born 18 October 1992 won the Rip Curl Pro Portugal?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The question asks for an American professional Hawaiian surfer born on 18 October 1992 who won the Rip Curl Pro Portugal. The only surfer in the provided context matching this description is John John Florence. The context states that he is a dominant surfer and specifically mentions that he is the defending champion of the Rip Curl Pro Portugal. \n\nFinal Answer: John John Florence"
+        }
+      ],
+      "final_answer": "John John Florence",
+      "ground_truth": "John John Florence",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What is the middle name of the actress who plays Bobbi Bacha in Suburban Madness?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "To answer the question, we first need to identify the actress who plays Bobbi Bacha in Suburban Madness. The context states that Sela Ward portrays Bobbi Bacha. Next, we look for Sela Ward's middle name, which is not explicitly stated in the context but can be inferred from her full name: Sela Ann Ward. Therefore, her middle name is \"Ann.\"\n\nFinal Answer: Ann"
+        }
+      ],
+      "final_answer": "Ann",
+      "ground_truth": "Ann",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Alvaro Mexia had a diplomatic mission with which tribe of indigenous people?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Alvaro Mexia had a diplomatic mission with the Ais native population, which lived in the area south of St. Augustine and near Cape Canaveral. His efforts led to a \"Period of Friendship\" between the Spanish and the Ais. Therefore, the tribe he engaged with during his diplomatic mission is clearly identified as the Ais. \n\nFinal Answer: Ais"
+        }
+      ],
+      "final_answer": "Ais",
+      "ground_truth": "Apalachees",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What nationality were social anthropologists Alfred Gell and Edmund Leach?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Alfred Gell was British, as indicated by his description as a British social anthropologist. Similarly, Edmund Leach was also British, mentioned specifically as a British social anthropologist. Hence, both anthropologists share the same nationality.\n\nFinal Answer: British"
+        }
+      ],
+      "final_answer": "British",
+      "ground_truth": "British",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "In which year was the King who made the 1925 Birthday Honours born?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "King George V made the 1925 Birthday Honours. He was born on 3 June 1865. Therefore, the year he was born is 1865. \n\nFinal Answer: 1865"
+        }
+      ],
+      "final_answer": "1865",
+      "ground_truth": "1865",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What is the county seat of the county where East Lempster, New Hampshire is located?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "To determine the county seat of the county where East Lempster is located, we first identify that East Lempster is in Sullivan County, New Hampshire. According to the context, the county seat of Sullivan County is Newport. Therefore, the answer is Newport.\n\nFinal Answer: Newport"
+        }
+      ],
+      "final_answer": "Newport",
+      "ground_truth": "Newport",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "The Album Against the Wind was the 11th Album of a Rock singer Robert C Seger born may 6 1945. What was the Rock singers stage name ?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The rock singer referred to in the question is Robert Clark Seger, who is known by his stage name Bob Seger. He is recognized as an American singer-songwriter and has had a successful career in rock music, including his album \"Against the Wind.\" The context states clearly that \"Against the Wind\" is his eleventh album. Therefore, the stage name of the singer is Bob Seger.\n\nFinal Answer: Bob Seger"
+        }
+      ],
+      "final_answer": "Bob Seger",
+      "ground_truth": "Bob Seger",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Rostker v. Goldberg held that the practice of what way of filling armed forces vacancies was consitutional?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Rostker v. Goldberg held that the practice of requiring only men to register for the draft in order to fill vacancies in the armed forces was constitutional. The Supreme Court ruled that this gender distinction did not violate the equal protection clause, allowing the existing law that applied only to men to stand. This decision was based on the interpretation of the draft's necessity for military purposes.\n\nFinal Answer: draft registration"
+        }
+      ],
+      "final_answer": "draft registration",
+      "ground_truth": "Conscription",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Handi-Snacks are a snack food product line sold by what American multinational confectionery, food, and beverage company that is based in Illinois?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Handi-Snacks are sold by Mondelez International, which is an American multinational company that specializes in confectionery, food, and beverages. The information in the context explicitly states that Handi-Snacks are a product line of Mondelez International. Additionally, Mondelez is based in Illinois, confirming it as the correct answer.\n\nFinal Answer: Mondelez International"
+        }
+      ],
+      "final_answer": "Mondelez International",
+      "ground_truth": "Mondelez International, Inc.",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What was the name of a woman from the book titled \"Their Lives: The Women Targeted by the Clinton Machine \" and was also a former white house intern?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The book \"Their Lives: The Women Targeted by the Clinton Machine\" recounts the stories of women who crossed paths with Bill Clinton, including Monica Lewinsky. Lewinsky is specifically noted as a former White House intern, making her a suitable answer. Therefore, the name of the woman from the book who was also a former White House intern is Monica Lewinsky.\n\nFinal Answer: Monica Lewinsky"
+        }
+      ],
+      "final_answer": "Monica Lewinsky",
+      "ground_truth": "Monica Lewinsky",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "When was the American lawyer, lobbyist and political consultant who was a senior member of the presidential campaign of Donald Trump born?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Paul Manafort, an American lawyer, lobbyist, and political consultant who served as a senior member of Donald Trump's presidential campaign, was born on April 1, 1949. This information is directly mentioned in the context provided. My reasoning confirms that he is the person referred to in the question.\n\nFinal Answer: April 1, 1949"
+        }
+      ],
+      "final_answer": "April 1, 1949",
+      "ground_truth": "April 1, 1949",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "In what year was the novel that Louren\u00e7o Mutarelli based \"Nina\" on based first published?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The novel that Louren\u00e7o Mutarelli based \"Nina\" on is \"Crime and Punishment\" by Fyodor Dostoyevsky. This novel was first published in installments in 1866. Therefore, the year when it was first published is 1866.\n\nFinal Answer: 1866"
+        }
+      ],
+      "final_answer": "1866",
+      "ground_truth": "1866",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Where are Teide National Park and Garajonay National Park located?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Teide National Park is located on the island of Tenerife in the Canary Islands, Spain. Garajonay National Park is situated on the island of La Gomera, also part of the Canary Islands, Spain. Both parks are significant natural reserves, with Teide being known for its volcano and Garajonay for its lush forests. They are relatively close to each other, as they are both in the Canary Islands archipelago.\n\nFinal Answer: Tenerife and La Gomera"
+        }
+      ],
+      "final_answer": "Tenerife and La Gomera",
+      "ground_truth": "Canary Islands, Spain",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "How many copies of Roald Dahl's variation on a popular anecdote sold?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The provided context does not give specific sales figures for \"Mrs. Bixby and the Colonel's Coat,\" which is described as a short story by Roald Dahl. Instead, it mentions that Roald Dahl's books have sold over 250 million copies in total worldwide, but there is no breakdown for individual stories or variations on anecdotes. Therefore, we cannot determine how many copies of this specific story were sold.\n\nFinal Answer: not specified"
+        }
+      ],
+      "final_answer": "not specified",
+      "ground_truth": "250 million",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "What occupation do Chris Menges and Aram Avakian share?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Both Chris Menges and Aram Avakian are involved in the film industry, specifically as directors. Menges is recognized for his work as a cinematographer and director, while Avakian is known as a film director and editor. Their shared role in directing highlights their common occupation within filmmaking.\n\nFinal Answer: director"
+        }
+      ],
+      "final_answer": "director",
+      "ground_truth": "director",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Andrew Jaspan was the co-founder of what not-for-profit media outlet?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Andrew Jaspan was the co-founder of \"The Conversation\", which is an independent not-for-profit media outlet. It focuses on providing analysis and news sourced from the university and research sector. Jaspan served as the Editor-in-Chief of this platform from its launch in March 2011 until March 2017. Thus, he is directly associated with the establishment of this notable media outlet.\n\nFinal Answer: The Conversation"
+        }
+      ],
+      "final_answer": "The Conversation",
+      "ground_truth": "The Conversation",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Which American film director hosted the 18th Independent Spirit Awards in 2002?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The 18th Independent Spirit Awards took place in 2002, and it is mentioned that this ceremony was hosted by John Waters. Therefore, John Waters is the American film director who hosted that event.\n\nFinal Answer: John Waters"
+        }
+      ],
+      "final_answer": "John Waters",
+      "ground_truth": "John Waters",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Where does the hotel and casino located in which Bill Cosby's third album was recorded?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Bill Cosby's third album, \"Why Is There Air?\", was recorded at the Flamingo Hotel in Las Vegas, Nevada. The album is notable for winning a Grammy Award in 1966. Consequently, the location of the hotel and casino related to this album is indeed the Flamingo Hotel.\n\nFinal Answer: Flamingo Hotel in Las Vegas"
+        }
+      ],
+      "final_answer": "Flamingo Hotel in Las Vegas",
+      "ground_truth": "Las Vegas Strip in Paradise",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Do the drinks Gibson and Zurracapote both contain gin?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The Gibson cocktail is made with gin and vermouth, meaning it contains gin. On the other hand, Zurracapote is primarily made with red wine and does not contain gin as one of its ingredients. Therefore, while the Gibson contains gin, the Zurracapote does not. \n\nFinal Answer: no"
+        }
+      ],
+      "final_answer": "no",
+      "ground_truth": "no",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "In what month is the annual documentary film festival, that is presented by the fortnightly published British journal of literary essays, held? ",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The annual documentary film festival referred to is the London International Documentary Festival (LIDF), which is presented in association with the London Review of Books. According to the context provided, LIDF takes place in the months of March and April. Therefore, the answer to the question is that the festival is held in March.\n\nFinal Answer: March"
+        }
+      ],
+      "final_answer": "March",
+      "ground_truth": "March and April",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Tysons Galleria is located in what county?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Tysons Galleria is located in McLean, Virginia, and falls within Fairfax County. The text explicitly states that Tysons Galleria is situated in Tysons Corner, which is an area located in Fairfax County, Virginia. Therefore, the answer can be confirmed as Fairfax County.\n\nFinal Answer: Fairfax County"
+        }
+      ],
+      "final_answer": "Fairfax County",
+      "ground_truth": "Fairfax County",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Bordan Tkachuk was the CEO of a company that provides what sort of products?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Bordan Tkachuk was the former CEO of Viglen, which provides IT products and services. These include storage systems, servers, workstations, and data/voice communications equipment and services. Therefore, the products associated with Tkachuk's former company are IT-related products and services.\n\nFinal Answer: IT products and services"
+        }
+      ],
+      "final_answer": "IT products and services",
+      "ground_truth": "IT products and services",
+      "is_correct": true
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Which filmmaker was known for animation, Lev Yilmaz or Pamela B. Green?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Lev Yilmaz is known for his animated comic series \"Tales of Mere Existence,\" which qualifies him as an animator. In contrast, while Pamela B. Green is a film producer and director, her work is not primarily focused on animation. Therefore, Lev Yilmaz is the filmmaker known for animation.\n\nFinal Answer: Lev Yilmaz"
+        }
+      ],
+      "final_answer": "Lev Yilmaz",
+      "ground_truth": "Levni Yilmaz",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "In which city is the ambassador of the Rabat-Sal\u00e9-K\u00e9nitra administrative region to China based?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "The question asks for the city in which the ambassador of the Rabat-Sal\u00e9-K\u00e9nitra administrative region to China is based. Given that Rabat is the capital city of Morocco and is mentioned as the official representative to the People's Republic of China, it follows that the ambassador would be based in Rabat. \n\nFinal Answer: Rabat"
+        }
+      ],
+      "final_answer": "Rabat",
+      "ground_truth": "Beijing",
+      "is_correct": false
+    },
+    {
+      "protocol": "SingleCoT",
+      "question": "Are Yingkou and Fuding the same level of city?",
+      "transcript": [
+        {
+          "role": "Solver",
+          "content": "Yingkou is a prefecture-level city, while Fuding is a county-level city. This indicates that Yingkou operates at a higher administrative level than Fuding. Therefore, they are not the same level of city. \n\nFinal Answer: no"
+        }
+      ],
+      "final_answer": "no",
+      "ground_truth": "no",
+      "is_correct": true
+    }
+  ]
+}

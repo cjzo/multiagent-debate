@@ -8,3 +8,7 @@ __pycache__/
 *.pyo
 .venv/
 env/
+analysis/
+evaluation/
+results/
+results_old/

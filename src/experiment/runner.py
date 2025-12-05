@@ -20,12 +20,21 @@ class ExperimentRunner:
                        dataset_name: str, 
                        num_agents: int = 2, 
                        limit: int = 3,
+                       start: int = 0,                   
+                       end: int = None,                   
                        output_file: str = None,
                        delay: float = 0.0,
                        **protocol_kwargs):
         
         loader = DataLoader(dataset_name, limit=limit)
         data = loader.load()
+
+        # Apply slicing for batching
+        if end is None:
+            end = len(data)
+        data = data[start:end]
+
+        print(f"Loaded {len(data)} examples (from index {start} to {end})")
         
         results = []
         correct_count = 0
@@ -63,7 +72,7 @@ class ExperimentRunner:
                     print(f"Warning: Could not decode {filepath}. Starting fresh.")
         else:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            filename = f"{protocol_class.__name__}_{dataset_name}_{timestamp}.json"
+            filename = f"{protocol_class.__name__}_{dataset_name}_{start}_{end-1}.json"
             filepath = os.path.join(self.output_dir, filename)
         
         print(f"Starting experiment with {protocol_class.__name__} on {dataset_name}...")
@@ -100,6 +109,8 @@ class ExperimentRunner:
             protocol = protocol_class()
             try:
                 context = item.get("context", "")
+                # --- snapshot provider usage BEFORE answering this question ---
+                before_usage = self.provider.get_usage()
                 result = protocol.run(question, agents, context=context, **protocol_kwargs)
                 result["ground_truth"] = item["answer"]
                 
@@ -114,6 +125,20 @@ class ExperimentRunner:
             except Exception as e:
                 print(f"Error processing item: {e}")
                 results.append({"error": str(e), "question": question})
+                # --- snapshot provider usage AFTER ---
+                after_usage = self.provider.get_usage()
+
+                # compute delta
+                delta_prompt = after_usage["prompt_tokens"] - before_usage["prompt_tokens"]
+                delta_completion = after_usage["completion_tokens"] - before_usage["completion_tokens"]
+                delta_total = delta_prompt + delta_completion
+
+                # store per-question token usage
+                result["token_usage"] = {
+                    "prompt_tokens": delta_prompt,
+                    "completion_tokens": delta_completion,
+                    "total_tokens": delta_total
+                }
 
             # Save incrementally
             self._save_results(filepath, protocol_class.__name__, dataset_name, results, correct_count, total_count)
@@ -127,7 +152,18 @@ class ExperimentRunner:
         self._save_results(filepath, protocol_class.__name__, dataset_name, results, correct_count, total_count)
         
         accuracy = correct_count / total_count if total_count > 0 else 0.0
-        print(f"Experiment finished. Accuracy: {accuracy:.2f} ({correct_count}/{total_count}). Results saved to {filepath}")
+        # token summary
+        usage = self.provider.get_usage()
+        prompt_tok = usage["prompt_tokens"]
+        completion_tok = usage["completion_tokens"]
+        total_tok = usage["total_tokens"]
+
+        print(
+            f"Experiment finished. Accuracy: {accuracy:.2f} ({correct_count}/{total_count}).\n"
+            f"Tokens used → prompt={prompt_tok}, completion={completion_tok}, total={total_tok}.\n"
+            f"Results saved to {filepath}"
+        )
+        # print(f"Experiment finished. Accuracy: {accuracy:.2f} ({correct_count}/{total_count}). Results saved to {filepath}")
 
     def _save_results(self, filepath, protocol_name, dataset_name, results, correct_count, total_count):
         accuracy = correct_count / total_count if total_count > 0 else 0.0
@@ -138,7 +174,10 @@ class ExperimentRunner:
                 "timestamp": datetime.now().isoformat(),
                 "accuracy": accuracy,
                 "correct_count": correct_count,
-                "total_count": total_count
+                "total_count": total_count,
+                "prompt_tokens": self.provider.prompt_tokens,
+                "completion_tokens": self.provider.completion_tokens,
+                "total_tokens": self.provider.prompt_tokens + self.provider.completion_tokens
             },
             "results": results
         }

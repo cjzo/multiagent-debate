@@ -1,0 +1,30 @@
+{
+  "run_id": 10,
+  "timestamp": "2025-12-05T01:11:56.445447",
+  "protocols": {
+    "CoT": {
+      "accuracy": 0.66,
+      "prompt_tokens": 150330,
+      "completion_tokens": 7436,
+      "total_tokens": 157766
+    },
+    "Socratic": {
+      "accuracy": 0.55,
+      "prompt_tokens": 375865,
+      "completion_tokens": 28589,
+      "total_tokens": 404454
+    },
+    "Congress": {
+      "accuracy": 0.57,
+      "prompt_tokens": 694968,
+      "completion_tokens": 83780,
+      "total_tokens": 778748
+    },
+    "British": {
+      "accuracy": 0.6565656565656566,
+      "prompt_tokens": 1076821,
+      "completion_tokens": 144545,
+      "total_tokens": 1221366
+    }
+  }
+}
